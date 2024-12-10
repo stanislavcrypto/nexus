@@ -129,7 +129,6 @@ draw_bottom_border() {
 # ----------------------------
 show_menu() {
     clear
-    draw_top_border
     echo -e "    ${YELLOW}Choose an option:${RESET}"
     draw_middle_border
     echo -e "    ${CYAN}1.${RESET} ${INSTALL} Install Nexus Node"
