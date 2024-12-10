@@ -132,7 +132,6 @@ draw_bottom_border() {
 # ----------------------------
 show_menu() {
     clear
-    display_ascii
     draw_top_border
     echo -e "    ${YELLOW}Choose an option:${RESET}"
     draw_middle_border
